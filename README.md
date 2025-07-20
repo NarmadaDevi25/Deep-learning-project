@@ -40,6 +40,7 @@ Track and plot training loss and accuracy to monitor progress and identify overf
 4. **Backpropagation:** Utilize backpropagation to calculate the gradients of the loss function concerning the model weights. This process involves applying the chain rule of calculus to propagate the error backward through the network, enabling the determination of how to adjust the weights to minimize the loss.
 5. **Weights Update:** Use an optimization algorithm (such as Adam, SGD, or RMSprop) to update the model weights based on the calculated gradients. It’s essential to fine-tune the learning rate in this step, as it determines the size of the update applied to the model weights. 
 6. **Learning Rate Scheduling:** Consider implementing a learning rate scheduler to adjust the learning rate dynamically throughout training. This can help in stabilizing the training process, allowing for larger updates when the model is far from convergence and smaller updates as it nears a solution.
-evaluate the Trained Model:
+
+Evaluate the Trained Model:
 Evaluate the model on a separate test dataset to measure its performance on unseen data.
 Use metrics like accuracy to quantify the percentage of correct predictions.
